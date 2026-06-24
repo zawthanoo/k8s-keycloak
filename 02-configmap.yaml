@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: keycloak-config
+  namespace: keycloak
+data:
+  KC_DB: postgres
+  KC_DB_URL: jdbc:postgresql://postgresql:5432/keycloakdb
+  KC_HOSTNAME: http://mycluster.local.com/keycloak
+  KC_HTTP_ENABLED: "true"
+  KC_HTTP_RELATIVE_PATH: /keycloak
+  KC_PROXY_HEADERS: xforwarded
+  KC_HEALTH_ENABLED: "true"
+  KC_METRICS_ENABLED: "true"
