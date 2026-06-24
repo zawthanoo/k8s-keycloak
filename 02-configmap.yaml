@@ -5,7 +5,7 @@ metadata:
   namespace: keycloak
 data:
   KC_DB: postgres
-  KC_DB_URL: jdbc:postgresql://postgresql:5432/keycloakdb
+  KC_DB_URL: jdbc:postgresql://host.docker.internal:5432/keycloakdb
   KC_HOSTNAME: http://mycluster.local.com/keycloak
   KC_HTTP_ENABLED: "true"
   KC_HTTP_RELATIVE_PATH: /keycloak
