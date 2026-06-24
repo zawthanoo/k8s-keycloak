@@ -6,9 +6,9 @@ metadata:
 data:
   KC_DB: postgres
   KC_DB_URL: jdbc:postgresql://host.docker.internal:5432/keycloakdb
-  KC_HOSTNAME: http://mycluster.local.com/keycloak
-  KC_HTTP_ENABLED: "true"
+  KC_HOSTNAME: mycluster.local.com
   KC_HTTP_RELATIVE_PATH: /keycloak
   KC_PROXY_HEADERS: xforwarded
+  KC_HTTP_ENABLED: "true"
   KC_HEALTH_ENABLED: "true"
   KC_METRICS_ENABLED: "true"
